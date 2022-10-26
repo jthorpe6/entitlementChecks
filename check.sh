@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if !type jtool2 &>/dev/null
+if ! type jtool2 &>/dev/null
 then
     echo "[!] jtool2 not found in PATH"
     exit
